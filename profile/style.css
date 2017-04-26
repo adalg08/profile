@@ -1,0 +1,125 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  border-top: 20px solid black;
+}
+
+h1, h2, h3 {
+ font-family: 'Monserrat', sans-serif;
+ font-weight: 700;
+}
+
+h1 {
+  color: #FA5858;
+  text-decoration: underline;
+}
+
+h2, h3 {
+ text-transform: capitalize;
+}
+
+div  {
+  margin: 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  color:gray;
+}
+
+a:hover {
+  color:red;
+}
+
+a:visited {
+  color:gray;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px;
+  background: black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn:visited {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.container {
+  width: 500px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+
+.card {
+  background-color: #fff;
+  box-shadow: 1px 1px 10px black;
+  padding: 10px 0px;
+}
+.profile {
+  padding: 60px;
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.competences {
+  padding: 20px 50px;
+}
+
+.competences img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  padding: 50px 0px;
+
+}
+
+.contact {
+  background-color: black;
+  color: #fafafa;
+  padding: 20px 0px;
+}
+
+.contact a {
+  padding: 10px 10px;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.footer a {
+ font-size: 12px;
+ color: black;
+ background: #fafafa;
+ padding: 5px 5px;
+}
+.footer a:hover {
+ color: red;
+}

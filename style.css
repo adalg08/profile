@@ -11,8 +11,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #FA5858;
-  text-decoration: underline;
+  color: black;
+  line-height: 110%;
+  text-decoration: underline overline;
 }
 
 h2, h3 {
